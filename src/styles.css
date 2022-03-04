@@ -16,8 +16,8 @@ nav {
 
 footer {
     height: 500px;
-    background-color: #000000;
-    color: #ffff;
+    background-color: #fcf8f8;
+    color: hwb(0 4% 95%);
 }
 
 .header {
