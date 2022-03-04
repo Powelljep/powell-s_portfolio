@@ -1,3 +1,47 @@
+section {
+    height: 80vh;
+    background-color: #ffff;
+    color: #000000;
+}
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+}
 
+footer {
+    height: 500px;
+    background-color: #000000;
+    color: #ffff;
+}
+
+.header {
+    height: 100vh;
+    background-color: rgb(4, 4, 39);
+    color: #ffff;
+    font-size: 2em;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+    justify-content: space-between;
+    
+}
+li {
+    width: 100px;
+    font-size: 30px;
+}
+.hearder-text {
+
+    margin-left: 40px;
+}
+
+h1 {
+    font-size: 90px;
+
+}
 
