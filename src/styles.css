@@ -15,9 +15,10 @@ nav {
 }
 
 footer {
+    display: flex;
     height: 500px;
-    background-color: #fcf8f8;
-    color: hwb(0 4% 95%);
+    background-color: #04021b;
+    color: rgb(250, 245, 245);
 }
 
 .header {
@@ -69,7 +70,36 @@ button {
     font-size: 20px;
 }
 .home-logo {
-    padding: auto;
+    padding-top: 15px;
     font-family: 'Kanit', sans-serif;
     font-size: 20px;
+}
+.socials {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: right;
+}
+
+.social {
+    margin: 10px;
+}
+
+.education {
+    background-image: url("../src/images/images.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    height: 30%;
+    
+}
+
+.about {
+    height: 100vh;
+}
+
+.about h1 h2 {
+    color: rgb(13, 13, 71);
 }
